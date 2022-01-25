@@ -417,7 +417,7 @@ FROM toys AS t
     CROSS JOIN 
     boys AS b;
 
-    -- Create a interests table that has its own PRIMARY KEY and uses a contact_id FOREIGN KEY from the my_contacts table
+-- Create a interests table that has its own PRIMARY KEY and uses a contact_id FOREIGN KEY from the my_contacts table
 CREATE TABLE interests(
     interests_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     interest VARCHAR(50) NOT NULL,
